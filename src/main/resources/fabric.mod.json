@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "veltomc",
+  "version": "${version}",
+  "name": "VELTOMC",
+  "description": "A clean, dark, PvP-style client utility mod with a ClickGUI. HUD tools, QoL toggles, and customization - no cheats.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.veltomc.VeltoMCClient"
+    ]
+  },
+  "mixins": [
+    "veltomc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
